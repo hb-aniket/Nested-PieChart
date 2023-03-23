@@ -4,7 +4,11 @@ function App() {
   return (
     <div className="App">
       <NestedChart data={data}  />
+    
+    {/* <DataApi data={data}/> */}
+    
     </div>
+    
   );
 }
 export default App;
